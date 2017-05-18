@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  JT Tran</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <div class = "weatherApp">
+    <div class="location">
+      <b class="city"> </b>
+      <b class="country"> </b>
+    </div>
+
+    <div class="stats">
+      <div class="weatherD">
+
+        <div class= "weatherType">
+          <img class= "weatherIcon" src="" alt="weatherIcon">
+          <b class="weatherDesc"></b>
+        </div>
+
+        <div class="temperatureD">
+          <b class="temperature" id="temperature"></b> &deg;<b id="temperatureUnit"></b>
+
+          <div class="tempToggle">
+            <a class = "temperatureSign not-active" href="#" onclick="return false;" id="temperatureC" data-temperature="">C</a>
+            &#x2F;
+            <a class = "temperatureSign" href="#"  onclick="return false;" id="temperatureF" data-temperature="">F</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class ="windD">
+        <span class="windspeed"></span>
+        <img class="arrow-up" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Green_Arrow_Up.svg/600px-Green_Arrow_Up.svg.png" alt="">
+        <span  class="windDir"></span >
+        </div>
+      </div>
+    </div>
+
+
+    <script src='js/jquery-3.2.1.min.js' type="text/javascript"></script>  
+    <script src="js/index.js" type="text/javascript">></script>
+
+</body>
+</html>

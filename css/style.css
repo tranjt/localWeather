@@ -1,0 +1,87 @@
+body {
+  padding-top: 40px;
+}
+
+.weatherApp {
+  background:	linear-gradient(to top, #1e5799 0%,#a5c9e5 100%);
+  max-width: 300px;
+  margin: 10px auto;
+  font-family: sans-serif;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 50px 5px;  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 1 1px rgba(0, 0, 0, 0.3);
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  color: #888;
+}
+
+.arrow-up {
+  width: 30px;
+  height: 50px;
+}
+
+.location {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 10px ;
+  font-size: 2.5rem;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 40px;
+}
+
+.weatherD {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3),
+  0 0 2px 1px  rgba(0, 0, 0, 0.2);
+}
+
+.weatherDesc {
+  float: right;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+
+.weatherType {
+  padding: 10px 10px 0 10px;  
+}
+
+.temperatureD{
+  padding: 10px;
+  font-size: 4rem;
+}
+
+.tempToggle {
+  float: right;
+  font-size: 1rem;
+}
+
+.windD {
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3),
+  0 0 2px 1px  rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 1.7rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
